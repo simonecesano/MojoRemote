@@ -78,10 +78,10 @@ __DATA__
 @@ index.html.ep
 % layout 'default';
 % title 'TV remote';
-<div class="bar symbol">&olcir;</div>
+<div class="bar symbol" data-command="WakeUp">&olcir;</div>
 <div class="button" data-command="Netflix">&naturals;</div>
 <div class="button symbol">&Congruent;</div>
-<div class="button symbol">&circledcirc;</div>
+<div class="button symbol" data-command="Hdmi3">&circledcirc;</div>
 
 <div class="button symbol" data-command="Wide">&rect;</div>
 <div class="button symbol" data-command="ClosedCaption">&hellip;</div>
@@ -93,10 +93,10 @@ __DATA__
 <div class="button symbol" data-command="Return">&circlearrowleft;</div>
 <div class="button symbol" data-command="CursorLeft">&triangleleft;</div>
 <div class="button symbol" data-command="Confirm">&square;</div>
-<div class="button symbol" data-command="CursorRight">&triangleright;</div>
-<div class="button spacer"></div>
+<div class="button symbol" data-command="CursorDown">&triangleright;</div>
+<div class="button symbol" data-command="Prev">&blacktriangleleft;&blacktriangleleft;</div>
 <div class="button symbol" data-command="CursorDown">&triangledown;</div>
-<div class="button spacer"></div>
+<div class="button symbol" data-command="Next">&blacktriangleright;&blacktriangleright;</div>
 
 <div class="button symbol" data-command="VolumeUp">&triangle;</div>
 <div class="button spacer"></div>
@@ -248,3 +248,8 @@ __DATA__
   "WirelessSubwoofer": "AAAAAgAAAMQAAAB+Aw==",
   "AndroidMenu": "AAAAAgAAAMQAAABPAw=="
 }
+@@notes.txt
+next/prev
+forward/rewind
+subtitle
+stop
